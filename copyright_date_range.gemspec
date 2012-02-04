@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "Generate a copyright date range from a particular year to the current year."
   s.email = "dave@geckocircle.com"
   s.extra_rdoc_files = ["README.mdown", "lib/copyright_date_range.rb"]
-  s.files = ["README.mdown", "Rakefile", "copyright_date_range.gemspec", "lib/copyright_date_range.rb", "Manifest"]
+  s.files = ["README.mdown", "Rakefile", "copyright_date_range.gemspec", "lib/copyright_date_range.rb"]
   s.homepage = "http://github.com/geckocircle/copyright_date_range"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Copyright_date_range", "--main", "README.mdown"]
   s.require_paths = ["lib"]
