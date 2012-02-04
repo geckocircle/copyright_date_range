@@ -20,7 +20,7 @@ If it is currently 2011, it would simply yield:
 
 You can install this gem by including it in your Gemfile:
 
-  gem 'copyright_date_range', :git => "git://github.com/geckocircle/copyright_date_range.git", :tag => "v0.1.0"
+  gem 'copyright_date_range', :git => "git://github.com/geckocircle/copyright_date_range.git"
 
 # License
 
