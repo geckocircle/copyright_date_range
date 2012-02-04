@@ -2,25 +2,30 @@
 
 This is a simple gem that provides a single helper method:
   
-  copyright_date_range(start_year)
+    copyright_date_range(start_year)
 
 Simply call it in a layout file as such:
 
-  .copyright Copyright &copy; #{copyright_date_range(2011)} MyCoolCompany.  All Rights Reserved.
+    .copyright 
+      Copyright &copy; #{copyright_date_range(2011)} MyCoolCompany.  All Rights Reserved.
   
 If it is currently 2012, this will yield:
 
-  Copyright © 2011 - 2012 MyCoolCompany.  All Rights Reserved.
+> Copyright © 2011 - 2012 MyCoolCompany.  All Rights Reserved.
   
 If it is currently 2011, it would simply yield:
 
-  Copyright © 2011 MyCoolCompany.  All Rights Reserved.
+> Copyright © 2011 MyCoolCompany.  All Rights Reserved.
 
 # Installation
 
-You can install this gem by including it in your Gemfile:
+If you use Bundler, you can install this gem by including it in your Gemfile:
 
-  gem 'copyright_date_range', :git => "git://github.com/geckocircle/copyright_date_range.git"
+    gem 'copyright_date_range', "~> 0.1.1"
+
+If you'd like to live on the wild side, and use the latest GitHub version:
+
+    gem 'copyright_date_range', :git => "git://github.com/geckocircle/copyright_date_range.git"
 
 # License
 
