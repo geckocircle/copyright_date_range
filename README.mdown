@@ -16,6 +16,12 @@ If it is currently 2011, it would simply yield:
 
   Copyright © 2011 MyCoolCompany.  All Rights Reserved.
 
+# Installation
+
+You can install this gem by including it in your Gemfile:
+
+  gem 'copyright_date_range', :git => "git://github.com/geckocircle/copyright_date_range.git", :tag => "v0.1.0"
+
 # License
 
 Copyright (C) 2012 Dave Rosborough.
